@@ -36,7 +36,7 @@ A modern, interactive digital portfolio built with Streamlit featuring dual them
 ## 📁 Project Structure
 
 ```
-streamlit_resume/
+digital-portfolio-app/
 ├── app.py                      # Main application file
 ├── requirements.txt             # Python dependencies
 ├── README.md                   # Project documentation
@@ -72,7 +72,7 @@ streamlit_resume/
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd streamlit_resume
+   cd digital-portfolio-app
    ```
 
 2. **Install dependencies**

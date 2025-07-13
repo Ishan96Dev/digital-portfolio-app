@@ -1417,7 +1417,7 @@ st.sidebar.markdown("### 🔗 Connect With Me")
 social_media_links = [
     ("Email", "mailto:ishanchakraborty2496@gmail.com", "src/Images/Email-logo.png"),
     ("LinkedIn", "https://www.linkedin.com/in/ishan-chakraborty-0085571a1/", "src/Images/linkedin-logo.png"),
-    ("GitHub", "https://github.com/IshanChakrabortyYT", "src/Images/GitHub-logo.png"),
+    ("GitHub", "https://github.com/Ishan96Dev", "src/Images/GitHub-logo.png"),
     ("YouTube", "https://youtube.com/@ishangaming96?si=eF2AG_p8L06nCaxE", "src/Images/YouTube-logo.png"),
     ("Instagram", "https://instagram.com/ig_ishangamingyt", "src/Images/Instagram-logo.png"),
     ("Facebook", "https://facebook.com/ishanchakraborty72", "src/Images/Facbook-logo.png"),

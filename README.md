@@ -161,7 +161,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - QA Engineer & Data Scientist
 - Automation Expert & Gaming Content Creator
 - [LinkedIn](https://www.linkedin.com/in/ishan-chakraborty-0085571a1/)
-- [GitHub](https://github.com/IshanChakrabortyYT)
+- [GitHub](https://github.com/Ishan96Dev)
 - [YouTube](https://youtube.com/@ishangaming96)
 
 ## 🙏 Acknowledgments

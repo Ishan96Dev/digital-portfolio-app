@@ -1,0 +1,132 @@
+name: 📚 Documentation
+description: Request documentation improvements or report documentation issues
+title: "[DOCS] "
+labels: ["documentation", "help wanted"]
+assignees: ["Ishan96Dev"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve our documentation! 📚
+        
+        Please provide as much detail as possible to help us understand your documentation request.
+
+  - type: dropdown
+    id: doc-type
+    attributes:
+      label: Documentation Type
+      description: What type of documentation issue or request is this?
+      options:
+        - Missing Documentation
+        - Outdated Documentation
+        - Unclear Documentation
+        - Documentation Bug
+        - New Documentation Request
+        - Translation Request
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: doc-title
+    attributes:
+      label: Documentation Title
+      description: A clear and concise title for the documentation issue/request
+      placeholder: e.g., Add installation guide for Windows users
+    validations:
+      required: true
+
+  - type: textarea
+    id: doc-description
+    attributes:
+      label: Description
+      description: A clear and concise description of the documentation issue or request
+      placeholder: |
+        Describe the documentation issue or request in detail:
+        - What documentation is affected?
+        - What is the problem or request?
+        - How can it be improved?
+    validations:
+      required: true
+
+  - type: input
+    id: affected-section
+    attributes:
+      label: Affected Section
+      description: Which part of the documentation is affected?
+      placeholder: e.g., README.md, Installation Guide, API Documentation, Contributing Guidelines
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-content
+    attributes:
+      label: Current Content (if applicable)
+      description: If reporting an issue with existing documentation, paste the current content here
+      placeholder: |
+        If you're reporting an issue with existing documentation, 
+        please paste the current content here so we can see what needs to be changed.
+
+  - type: textarea
+    id: suggested-content
+    attributes:
+      label: Suggested Content
+      description: If you have suggestions for improved documentation, provide your proposed content here
+      placeholder: |
+        If you have suggestions for improved documentation, 
+        please provide your proposed content here.
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority Level
+      description: How important is this documentation issue/request?
+      options:
+        - Low Priority
+        - Medium Priority
+        - High Priority
+        - Critical
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: How does this documentation issue affect users?
+      placeholder: |
+        Describe the impact of this documentation issue:
+        - Who is affected?
+        - How does it impact their experience?
+        - What problems does it cause?
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to Reproduce (for documentation bugs)
+      description: If this is a documentation bug, describe how to reproduce the issue
+      placeholder: |
+        1. Go to documentation section '...'
+        2. Follow the instructions '....'
+        3. See the problem '....'
+        4. Expected vs actual result
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the documentation issue here
+      placeholder: |
+        - Screenshots (if applicable)
+        - Related issues or discussions
+        - Technical details
+        - Any other relevant information
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this documentation request, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true 

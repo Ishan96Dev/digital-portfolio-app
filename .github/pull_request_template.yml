@@ -1,0 +1,79 @@
+name: 🚀 Pull Request
+about: Submit a pull request to improve the Digital Portfolio App
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the Digital Portfolio App! Please fill out the following information to help us review your PR.
+
+  - type: input
+    id: pr-title
+    attributes:
+      label: PR Title
+      description: A clear and concise title for your pull request
+      placeholder: e.g., Add dark mode toggle to theme switcher
+    validations:
+      required: true
+
+  - type: textarea
+    id: pr-description
+    attributes:
+      label: Description
+      description: Describe what this PR does and why
+      placeholder: |
+        - What is the purpose of this PR?
+        - What problem does it solve or feature does it add?
+        - Any relevant context or background?
+    validations:
+      required: true
+
+  - type: textarea
+    id: changes-summary
+    attributes:
+      label: Summary of Changes
+      description: List the main changes made in this PR
+      placeholder: |
+        - Change 1
+        - Change 2
+        - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: testing
+    attributes:
+      label: Testing
+      description: How did you test your changes?
+      placeholder: |
+        - Manual testing steps
+        - Automated tests
+        - Screenshots or logs (if applicable)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm the following before submitting
+      options:
+        - label: My code follows the project's coding style and guidelines
+          required: true
+        - label: I have performed a self-review of my code
+          required: true
+        - label: I have commented my code, particularly in hard-to-understand areas
+        - label: I have made corresponding changes to the documentation (if applicable)
+        - label: My changes generate no new warnings or errors
+        - label: I have added tests that prove my fix is effective or that my feature works (if applicable)
+        - label: New and existing unit tests pass locally with my changes
+        - label: Any dependent changes have been merged and published in downstream modules
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Add any other relevant information or questions for reviewers
+      placeholder: |
+        - Anything else the reviewers should know?
+        - Questions or concerns
+        - Related issues or PRs 
